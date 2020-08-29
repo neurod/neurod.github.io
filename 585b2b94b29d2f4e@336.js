@@ -15,11 +15,11 @@ export default function define(runtime, observer) {
   main.variable(observer()).define(["md"], function(md){return(
 md`# Graph of Neuroscientists from Consciousness Recruiting 2020
 
-Details at (this link)[https://inconsciousnesswetrust.blogspot.com/2020/08/cognitive-neuroscience-of-consciousness.html]
+Details at https://inconsciousnesswetrust.blogspot.com/2020/08/cognitive-neuroscience-of-consciousness.html
 
 Main Presenters:
 - Rachel Denison
-- Tony Ro (doesn't have a google scholar)
+- Tony Ro (couldn't find his google scholar)
 - Jason Samaha
 - Emily Ward
 - Eve Isham
