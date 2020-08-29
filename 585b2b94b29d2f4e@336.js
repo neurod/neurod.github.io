@@ -7,7 +7,7 @@ export default function define(runtime, observer) {
   const file_nyu = 'nyu_dope1.tsv';
   const file_nyu_ns = 'nyu_NS2.tsv';
   const file_hakwan = 'hakwan_meetup.tsv';
-  const picked_filename = `./${file_hakwan}`;
+  const picked_filename = `./files/${file_hakwan}`;
 
   const main = runtime.module();
   const fileAttachments = new Map([["table.tsv", new URL(picked_filename,import.meta.url)]]);
