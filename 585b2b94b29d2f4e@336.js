@@ -143,10 +143,10 @@ Array.from(new Set(Object.values(titlesMap)))
 600
 )});
   main.variable(observer("color")).define("color", ["d3","types"], function(d3,types){return(
-d3.scaleOrdinal(types, d3.schemeCategory10)
+d3.scaleOrdinal(types, d3.schemeCategory20)
 )});
   main.variable(observer("color2")).define("color2", ["d3","titles"], function(d3,titles){return(
-d3.scaleOrdinal(titles, d3.schemeCategory10)
+d3.scaleOrdinal(titles, d3.schemeCategory20)
 )});
   main.variable(observer("linkArc")).define("linkArc", function(){return(
 function linkArc(d) {
