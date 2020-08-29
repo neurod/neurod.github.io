@@ -13,9 +13,26 @@ export default function define(runtime, observer) {
   const fileAttachments = new Map([["table.tsv", new URL(picked_filename,import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], function(md){return(
-md`# Graph of Neuroscientists
+md`# Graph of Neuroscientists from Consciousness Recruiting 2020
 
-Downloaded and created from google scholar`
+Details at (this link)[https://inconsciousnesswetrust.blogspot.com/2020/08/cognitive-neuroscience-of-consciousness.html]
+
+Main Presenters:
+- Rachel Denison
+- Tony Ro (doesn't have a google scholar)
+- Jason Samaha
+- Emily Ward
+- Eve Isham
+- Brian Odegaard
+- Giancarlo Vanini
+- Caroline Robertson
+- Ruth Rosenholtz
+- Megan Peters
+- Michael Cohen
+- Phil Corlett
+
+The graph represents their (1-link) coauthors based on Google Scholar
+`
 )});
   main.variable(observer()).define(["swatches","color2"], function(swatches,color2){return(
 swatches({color:color2})
